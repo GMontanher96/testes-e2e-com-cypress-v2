@@ -2,7 +2,8 @@ const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
   e2e: {
-    // eslint-disable-next-line no-unused-vars
+    baseUrl: 'https://notes-serverless-app.com',
+    defaultCommandTimeout: 10000,
     setupNodeEvents(on, _config) {
       // implement node event listeners here
     },

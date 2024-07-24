@@ -48,5 +48,10 @@ describe('Scenarios where authentication is a pre-condition', () => {
 
     cy.get('#email').should('be.visible')
   })
+
+  it('logs out', { tags: '@desktop-and-tablet' }, () => {
+    // O código aqui não muda ...
+  })
+  
   
 })
